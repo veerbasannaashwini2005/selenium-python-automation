@@ -1,0 +1,17 @@
+[
+    {
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "expected_success": true
+    },
+    {
+        "username": "wrong_user",
+        "password": "wrong_password",
+        "expected_success": false
+    },
+    {
+        "username": "standard_user",
+        "password": "wrong_password",
+        "expected_success": false
+    }
+]
